@@ -11,7 +11,7 @@ export const connectDB = async () => {
         host: 'localhost',
         database: 'usersdb',
         entities: [Users],
-        synchronize: false,
+        synchronize: true,
         ssl: false
     })
 }
